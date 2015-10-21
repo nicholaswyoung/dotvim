@@ -10,6 +10,7 @@ Plug 'mxw/vim-jsx'
 
 " Color Schemes
 Plug 'nanotech/jellybeans.vim'
+Plug 'w0ng/vim-hybrid'
 Plug 'chriskempson/base16-vim' " Wishful Thinking
 
 " Wrap
@@ -23,7 +24,7 @@ set softtabstop=2
 set background=dark
 set relativenumber
 set number
-colorscheme jellybeans
+colorscheme hybrid
 
 " Kickoff
 filetype plugin indent on
