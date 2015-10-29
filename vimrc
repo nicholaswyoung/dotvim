@@ -1,6 +1,9 @@
 " Start Plug.vim/Setup
 call plug#begin('~/.vim/plugged')
 
+" Plugins
+Plug 'kien/ctrlp.vim'
+
 " Syntax Helpers
 Plug 'pangloss/vim-javascript'
 Plug 'elixir-lang/vim-elixir'
@@ -24,7 +27,9 @@ set softtabstop=2
 set background=dark
 set relativenumber
 set number
-colorscheme hybrid
+colorscheme jellybeans
+
+let g:netrw_liststyle=3
 
 " Kickoff
 filetype plugin indent on
