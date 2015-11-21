@@ -34,3 +34,4 @@ let g:netrw_liststyle=3
 " Kickoff
 filetype plugin indent on
 autocmd BufNewFile,BufRead *.json set ft=javascript
+au BufRead,BufNewFile *.md setlocal textwidth=80
