@@ -3,8 +3,10 @@ call plug#begin('~/.vim/plugged')
 
 " Plugins
 Plug 'kien/ctrlp.vim'
+Plug 'godlygeek/tabular'
 
 " Syntax Helpers
+Plug 'plasticboy/vim-markdown'
 Plug 'pangloss/vim-javascript'
 Plug 'elixir-lang/vim-elixir'
 Plug 'othree/html5.vim'
@@ -30,6 +32,9 @@ set number
 colorscheme jellybeans
 
 let g:netrw_liststyle=3
+let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_math=1
+let g:vim_markdown_frontmatter=1
 
 " Kickoff
 filetype plugin indent on
