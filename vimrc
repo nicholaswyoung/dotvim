@@ -4,6 +4,8 @@ call plug#begin('~/.vim/plugged')
 " Plugins
 Plug 'kien/ctrlp.vim'
 Plug 'godlygeek/tabular'
+Plug 'kien/ctrlp.vim'
+Plug 'bling/vim-airline'
 
 " Syntax Helpers
 Plug 'plasticboy/vim-markdown'
