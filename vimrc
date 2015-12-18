@@ -2,7 +2,7 @@
 call plug#begin('~/.vim/plugged')
 
 " Plugins
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'
 Plug 'tpope/vim-fugitive'
 Plug 'bling/vim-airline'
