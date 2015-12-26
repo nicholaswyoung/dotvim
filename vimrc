@@ -25,14 +25,17 @@ Plug 'chriskempson/base16-vim' " Wishful Thinking
 call plug#end()
 
 " General Settings
-set t_Co=256
 set expandtab
+set relativenumber
+set number
+set swapfile
+colorscheme jellybeans
+
+set directory=~/.vim/tmp
+set t_Co=256
 set shiftwidth=2
 set softtabstop=2
 set background=dark
-set relativenumber
-set number
-colorscheme jellybeans
 
 let g:netrw_liststyle=3
 let g:vim_markdown_folding_disabled=1
