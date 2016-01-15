@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'godlygeek/tabular'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 
