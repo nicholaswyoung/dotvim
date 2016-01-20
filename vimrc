@@ -17,6 +17,7 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'othree/html5.vim'
 Plug 'JulesWang/css.vim'
 Plug 'mxw/vim-jsx'
+Plug 'kchmck/vim-coffee-script'
 
 " Color Schemes
 Plug 'nanotech/jellybeans.vim'
