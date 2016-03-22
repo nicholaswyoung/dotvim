@@ -32,9 +32,9 @@ set directory=~/.vim/tmp
 set t_Co=256
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2
 set background=dark
 
-set expandtab
 set relativenumber
 set number
 set swapfile
