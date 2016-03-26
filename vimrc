@@ -47,5 +47,6 @@ let g:vim_markdown_frontmatter=1
 
 " Kickoff
 filetype plugin indent on
+autocmd VimResized * wincmd =
 autocmd BufNewFile,BufRead *.json set ft=javascript
 au BufRead,BufNewFile *.md setlocal textwidth=80
