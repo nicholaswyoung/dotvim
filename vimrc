@@ -34,6 +34,7 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set background=dark
+set laststatus=2
 
 set relativenumber
 set number
