@@ -9,6 +9,9 @@ Plug 'junegunn/gv.vim'
 Plug 'tpope/vim-surround'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'edkolev/tmuxline.vim'
+Plug 'slashmili/alchemist.vim'
 
 " Syntax Helpers
 Plug 'plasticboy/vim-markdown'
