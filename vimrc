@@ -12,6 +12,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'edkolev/tmuxline.vim'
 Plug 'slashmili/alchemist.vim'
+Plug 'fatih/vim-go'
+Plug 'rust-lang/rust.vim'
 
 " Syntax Helpers
 Plug 'plasticboy/vim-markdown'
