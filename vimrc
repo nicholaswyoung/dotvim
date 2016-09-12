@@ -14,6 +14,7 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'slashmili/alchemist.vim'
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
+Plug 'leafgarland/typescript-vim'
 
 " Syntax Helpers
 Plug 'plasticboy/vim-markdown'
